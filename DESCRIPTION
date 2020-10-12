@@ -1,0 +1,19 @@
+Package: rutils
+Type: Package
+Title: A library of some utility functions useful for R programming
+Version: 3.0.9
+Date: 05 August 2019
+Author: Nick Randall
+Maintainer: Nick Randall <nick.randall.nirasoft@gmail.com>
+Description: This package provides a useful general library of functions in R. 
+  There are various functions for working with numerics, characters, vectors,
+  matrices and data.frames plus many functions for conversion, error handling and
+  data verification.
+License: MIT
+LazyData: TRUE
+Collate: 
+    'clust.R'
+    'linalg.R'
+    'tree.R'
+    'rutils.R'
+RoxygenNote: 6.1.1
